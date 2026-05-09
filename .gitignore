@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs / large binaries
+*.docx
+*.pptx
+!Image-to-Word-Agentic-AI.pptx
+*.pdf
+!Project*.pdf
+!Professional_Practices_IT_Phase2_Guidelines.pdf
+
+# Test images (optional — remove this section if you want them in repo)
+# WhatsApp Image*.jpeg
+# WhatsApp Image*.jpg
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
